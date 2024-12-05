@@ -1,0 +1,231 @@
+/* encabezado-----------------------------------*/
+header{
+    background-color: rgb(142, 177, 220);
+    padding-top: 10px;
+    height: 120px;
+    padding-bottom: 10px;
+}
+
+.aguacatico{
+    width: 110px;
+    height: 110px;
+    border-radius: 80%;
+    border: 5px solid rgb(142, 177, 220);
+    margin-top: -110px;
+    margin-left: 60px;
+}
+.nombre{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-right: 110px;
+    background-color:rgb(142, 177, 220); 
+    width: 350px;
+}
+.nom{
+    margin: 10px;
+    color: rgb(33, 52, 96);
+    font-size: 35px;
+
+}
+.cargo{
+    margin: 0px;
+    color: rgb(33, 52, 96);
+    margin-left: 15px;
+    
+}
+/*Contacto---------------------------------*/
+.telefono{
+    display: flex;
+    flex-direction: row;
+}
+.numero{
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.correo{
+    margin-top: -10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column
+    
+}
+.sitio{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+.telcon{
+    display: flex;
+    flex-direction: row;
+}
+
+.imgmensaje{
+    background-color: rgb(33, 52, 96);
+    border-radius: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width:20px;
+    height: 20px;
+    margin-left: 20px   
+}
+.imgtelefono{
+    background-color: rgb(33, 52, 96);
+    border-radius: 80px;
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    padding: 5px;
+}
+.imginternet{
+    background-color: rgb(33, 52, 96);
+    border-radius: 80px;
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    padding: 5px;
+}
+/*------------------------------------------*/
+.contacto{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-top: 2px;
+}
+/*----------------------------------------*/
+.habilidades{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+/*-------------------------------------------*/
+.educacion{
+    margin: 10px;
+}
+
+/*---------------------------------------*/
+.acercademi{
+    margin: 10px;
+    margin-top: 19px;
+    margin-right: 18px;
+    margin-left: 10px;
+}
+
+.textoa{
+    margin-left: 20px;
+}
+/*-------------------------------------------*/
+.experiencialaboral{
+    margin: 10px;
+    margin-right: 16px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+/*partes------------------------------------ */
+.parteazul{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(237, 243, 255);
+    float: right;
+    width: 35%;
+}
+.parteblanca{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 65%;
+}
+
+.todo{
+    display: flex;
+    flex-direction: row;
+}
+/*---------------------------------------*/
+
+
+
+hr{
+    height: 5px;
+    background-color: rgb(33, 52, 96);
+    width: 50px;
+    margin-left: 1px;
+}
+h4{
+    color: rgb(33, 52, 96);
+}
+
+body{
+    display: flow;
+    
+}
+.letralin{
+    margin-left: 20px;
+
+}
+
+
+.container{
+    max-width:800px;
+    min-width: 800px;
+    margin: auto;
+}
+
+
+
+/*
+
+img{
+    width: 100px;
+    margin-right: 3%;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    width: 50%;
+    background-color: blueviolet;
+    height: 50px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    background-color: blueviolet;
+    width: 50%;
+}
+
+
+li{
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+
+}
+li::after{
+    content:" / ";
+    position: absolute;
+    right: -6px;
+
+}
+li:last-child::after{
+    content: "";
+
+}
+.centrado{
+    text-align: center;
+}
+
+*/
