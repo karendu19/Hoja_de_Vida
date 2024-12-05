@@ -1,6 +1,6 @@
 /* encabezado-----------------------------------*/
 header{
-    background-color: rgb(142, 177, 220);
+    background-color: rgb(203, 214, 227);
     padding-top: 10px;
     height: 120px;
     padding-bottom: 10px;
@@ -10,7 +10,7 @@ header{
     width: 110px;
     height: 110px;
     border-radius: 80%;
-    border: 5px solid rgb(142, 177, 220);
+    border: 5px solid rgb(203, 214, 227);
     margin-top: -110px;
     margin-left: 60px;
 }
@@ -19,18 +19,18 @@ header{
     flex-direction: column;
     float: right;
     margin-right: 110px;
-    background-color:rgb(142, 177, 220); 
+    background-color:rgb(203, 214, 227); 
     width: 350px;
 }
 .nom{
     margin: 10px;
-    color: rgb(33, 52, 96);
+    color: rgb(40, 60, 94);
     font-size: 35px;
 
 }
 .cargo{
     margin: 0px;
-    color: rgb(33, 52, 96);
+    color: rgb(40, 60, 94);
     margin-left: 15px;
     
 }
@@ -53,10 +53,13 @@ header{
     
 }
 .sitio{
+
+    color: rgb(0, 2, 5);
+    text-decoration: none;
     display: flex;
     flex-direction: column;
     margin-left: 10px;
-    margin-top: -10px;
+    margin-top: 5px;
 }
 
 .telcon{
@@ -65,7 +68,7 @@ header{
 }
 
 .imgmensaje{
-    background-color: rgb(33, 52, 96);
+    background-color: rgb(40, 60, 94);
     border-radius: 80px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -76,7 +79,7 @@ header{
     margin-left: 20px   
 }
 .imgtelefono{
-    background-color: rgb(33, 52, 96);
+    background-color: rgb(40, 60, 94);
     border-radius: 80px;
     width: 20px;
     height: 20px;
@@ -84,7 +87,7 @@ header{
     padding: 5px;
 }
 .imginternet{
-    background-color: rgb(33, 52, 96);
+    background-color: rgb(40, 60, 94);
     border-radius: 80px;
     width: 20px;
     height: 20px;
@@ -137,7 +140,7 @@ header{
 .parteazul{
     display: flex;
     flex-direction: column;
-    background-color: rgb(237, 243, 255);
+    background-color: rgb(238, 244, 254);
     float: right;
     width: 35%;
 }
@@ -158,12 +161,12 @@ header{
 
 hr{
     height: 5px;
-    background-color: rgb(33, 52, 96);
+    background-color: rgb(40, 60, 94);
     width: 50px;
     margin-left: 1px;
 }
 h4{
-    color: rgb(33, 52, 96);
+    color: rgb(40, 60, 94);
 }
 
 body{
@@ -184,48 +187,3 @@ body{
 
 
 
-/*
-
-img{
-    width: 100px;
-    margin-right: 3%;
-}
-.logo{
-    display: flex;
-    flex-direction: row;
-    float: left;
-    width: 50%;
-    background-color: blueviolet;
-    height: 50px;
-}
-.menu{
-    display: flex;
-    flex-direction: row;
-    float: right;
-    background-color: blueviolet;
-    width: 50%;
-}
-
-
-li{
-    display: inline-block;
-    margin-left: 5px;
-    margin-right: 5px;
-    position: relative;
-
-}
-li::after{
-    content:" / ";
-    position: absolute;
-    right: -6px;
-
-}
-li:last-child::after{
-    content: "";
-
-}
-.centrado{
-    text-align: center;
-}
-
-*/
